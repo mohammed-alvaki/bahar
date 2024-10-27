@@ -1,0 +1,124 @@
+#track-section .b-crumb {
+    background-color: var(--dark-color);
+    border-radius: 7px;
+}
+
+#track-section .breadcrumb>.breadcrumb-item:first-child i {
+    color: var(--orange-color);
+}
+
+#track-section .breadcrumb-item+.breadcrumb-item::before {
+    color: rgb(174, 171, 171);
+}
+
+#track-section .title {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+#track-section .hr {
+    width: 100%;
+    height: 2px;
+    background-color: var(--dark-color);
+}
+
+#track-section .myRow {
+    background-color: #eee;
+    border-radius: 25px;
+}
+
+#track-section .social-media>a {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+#track-section .social-media i {
+    font-size: 15px;
+}
+
+#track-section .whatsapp {
+    background-color: #25D366;
+}
+
+#track-section .linkedin {
+    background-color: #0077B5;
+}
+
+#track-section .twitter {
+    background: black;
+}
+
+#track-section .facebook {
+    background-color: #1877F2;
+}
+
+#track-section .pinterest {
+    background-color: #E60023;
+}
+
+#track-section .share {
+    background: #000000;
+    border-radius: 3px !important;
+    font-size: 5px !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+@media(min-width:768px) {
+
+    #track-section .social-media>a {
+        width: 35px;
+        height: 35px;
+    }
+
+    #track-section .social-media i {
+        font-size: 16px;
+    }
+
+    #track-section .share {
+        font-size: 8px !important;
+        width: 23px !important;
+        height: 23px !important;
+    }
+
+}
+
+#track-section .error {
+    background-color: white;
+    border-top: 3px solid var(--orange-color);
+}
+
+#track-section .entry {
+    border-bottom: 3px solid var(--orange-color);
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#track-section .entry h4 {
+    color: var(--orange-color);
+    font-size: 1.1rem;
+}
+
+#track-section input::placeholder {
+    font-size: 0.8rem;
+}
+
+#track-section input:focus {
+    outline: 0;
+}
+
+#track-section .mail::placeholder {
+    text-align: right;
+}
+
+#track-section .btnTrack {
+    background-color: var(--dark-color);
+    border-radius: 5px;
+    width: fit-content;
+}

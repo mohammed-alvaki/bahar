@@ -1,0 +1,89 @@
+#bread-section .b-crumb {
+    background-color: var(--dark-color);
+    border-radius: 7px;
+}
+
+#bread-section .breadcrumb>.breadcrumb-item:first-child i {
+    color: var(--orange-color);
+}
+
+#bread-section .breadcrumb>.breadcrumb-item a {
+    color: var(--orange-color);
+}
+
+#bread-section .breadcrumb-item+.breadcrumb-item::before {
+    color: rgb(174, 171, 171);
+}
+
+#prev-section .img-container {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#prev-section .img-container img {
+    width: 100%;
+    cursor: zoom-in;
+}
+
+#prev-section .zoom-icon {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+#prev-section .demo {
+    font-size: 0.9rem;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.3);
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+#prev-section .tab-pane {
+    border-radius: 5px;
+}
+
+#prev-section .tab-pane :where(p, strong, span) {
+    font-size: 0.85rem;
+}
+
+
+#prev-section .img-cont span {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+#prev-section .dis {
+    background-color: #eee;
+}
+
+#prev-section .add {
+    color: var(--orange-color);
+    background-color: white;
+    width: fit-content;
+    font-size: 0.9rem;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#prev-section .dis h5 {
+    font-size: 1rem;
+}
+
+#prev-section .nav-tabs .nav-link:not(.active) {
+    background-color: #eee;
+}
+
+#prev-section .nav-tabs .nav-link {
+    border-radius: 0;
+}

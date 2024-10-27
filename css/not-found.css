@@ -1,0 +1,45 @@
+#bread-section .b-crumb {
+    background-color: var(--dark-color);
+    border-radius: 7px;
+}
+
+#bread-section .breadcrumb>.breadcrumb-item:first-child i {
+    color: var(--orange-color);
+}
+
+#bread-section .breadcrumb>.breadcrumb-item a {
+    color: var(--orange-color);
+}
+
+#bread-section .breadcrumb-item+.breadcrumb-item::before {
+    color: rgb(174, 171, 171);
+}
+
+#empty-section {
+    margin-top: 6rem;
+}
+
+#empty-section .number {
+    font-size: 8rem;
+    line-height: 100px;
+}
+
+#empty-section .not-found {
+    font-size: 2rem;
+}
+
+#empty-section form input {
+    width: 200px;
+    background-color: #eee;
+}
+
+#empty-section form input:focus {
+    outline: 0;
+}
+
+@media(min-width:992px) {
+    #empty-section .number {
+        font-size: 10rem;
+        line-height: 120px;
+    }
+}
