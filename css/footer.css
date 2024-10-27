@@ -1,0 +1,128 @@
+footer {
+    background-color: var(--dark-color);
+}
+
+footer .social-media {
+    border-radius: 15px;
+}
+
+footer .socail-media img {
+    width: 200px;
+}
+
+footer .hr {
+    height: 1px;
+    width: 100%;
+    background-image: linear-gradient(to right, transparent, black, transparent);
+}
+
+footer .icons a {
+    background-color: var(--dark-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s linear;
+}
+
+footer .facebook:hover {
+    transform: scale(1.1);
+    background-color: #1877F2;
+}
+
+footer .twitter:hover {
+    transform: scale(1.1);
+    background-color: black;
+}
+
+footer .youtube:hover {
+    transform: scale(1.1);
+    background-color: #FF0000;
+}
+
+footer .instagram:hover {
+    transform: scale(1.1);
+    background-color: #bebcbc;
+}
+
+footer .related a {
+    font-size: 0.9rem;
+    transition: all 0.3s linear;
+    text-decoration: none;
+}
+
+footer .contact p {
+    font-size: 0.9rem;
+}
+
+footer .related a:hover {
+    color: var(--orange-color) !important;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+footer h4 {
+    letter-spacing: 1px;
+}
+
+footer h4::before {
+    content: '';
+    height: 4px;
+    width: 55px;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--orange-color);
+    border-radius: 5px;
+}
+
+footer .links a {
+    background-color: white !important;
+    color: var(--orange-color) !important;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 3px 8px;
+}
+
+footer .rights {
+    background-color: var(--orange-color);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.contact-whatsapp {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 100000;
+    border-radius: 50%;
+    animation-name: fade-whats;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fade-whats {
+    0% {
+        outline: 2px dashed rgba(124, 230, 21, 1);
+        outline-offset: 0px;
+    }
+
+    80% {
+        outline: 2px dashed rgba(124, 230, 21, 1);
+    }
+
+    100% {
+        outline: 2px dashed rgba(124, 230, 21, 0);
+        outline-offset: 20px;
+
+    }
+}

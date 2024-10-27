@@ -1,0 +1,48 @@
+#results-section .b-crumb {
+    background-color: var(--dark-color);
+    border-radius: 7px;
+}
+
+#results-section .breadcrumb>.breadcrumb-item:first-child i {
+    color: var(--orange-color);
+}
+
+#results-section .breadcrumb-item+.breadcrumb-item::before {
+    color: rgb(174, 171, 171);
+}
+
+#results-section .title {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+#results-section .myRow {
+    background-color: #eee;
+    border-radius: 20px;
+}
+
+#results-section .res img {
+    width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+#results-section .det p {
+    font-size: 0.9rem;
+    line-height: 25px;
+    color: #868484;
+}
+
+#results-section .det a {
+    background-color: var(--dark-color);
+    border-radius: 5px;
+    width: fit-content;
+}
+
+@media(min-width:768px) {
+    #results-section .res img {
+        border-radius: 0;
+        width: 150px;
+    }
+
+}

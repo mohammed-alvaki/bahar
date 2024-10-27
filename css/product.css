@@ -1,0 +1,117 @@
+#bread-section .b-crumb {
+    background-color: var(--dark-color);
+    border-radius: 7px;
+}
+
+#bread-section .breadcrumb>.breadcrumb-item:first-child i {
+    color: var(--orange-color);
+}
+
+#bread-section .breadcrumb>.breadcrumb-item:nth-child(2) a {
+    color: var(--orange-color);
+}
+
+#bread-section .breadcrumb-item+.breadcrumb-item::before {
+    color: rgb(174, 171, 171);
+}
+
+#content-section .img-cont img {
+    border-radius: 15px;
+}
+
+#content-section .sub-title {
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+#content-section .social-media>a {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+#content-section .social-media i {
+    font-size: 15px;
+}
+
+#content-section .whatsapp {
+    background-color: #25D366;
+}
+
+#content-section .linkedin {
+    background-color: #0077B5;
+}
+
+#content-section .twitter {
+    background: black;
+}
+
+#content-section .facebook {
+    background-color: #1877F2;
+}
+
+#content-section .pinterest {
+    background-color: #E60023;
+}
+
+#content-section .share {
+    background: #000000;
+    border-radius: 3px !important;
+    font-size: 5px !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+@media(min-width:768px) {
+
+    #content-section .social-media>a {
+        width: 35px;
+        height: 35px;
+    }
+
+    #content-section .social-media i {
+        font-size: 16px;
+    }
+
+    #content-section .share {
+        font-size: 8px !important;
+        width: 23px !important;
+        height: 23px !important;
+    }
+
+}
+
+#content-section .myRow {
+    background-color: #eee;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+
+}
+
+#content-section .views span:first-child {
+    border: 1px solid;
+    padding: 3px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+#content-section.views-num {
+    font-size: 0.8rem;
+}
+
+#content-section .demo {
+    font-size: 0.9rem;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.3);
+}
+
+#content-section .text p {
+    font-size: 0.9rem;
+    line-height: 22px;
+}
